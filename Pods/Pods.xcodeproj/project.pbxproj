@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5B40FBDAD0AB75D17C4760F4054BFF71 /* JitsiMeetSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F617CE4545CE4E4DED6DEC4F2D3F8F38 /* Build configuration list for PBXAggregateTarget "JitsiMeetSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = JitsiMeetSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		25E29726B74CCF60B98B3BEE05ABF159 /* Pods-VideoConfrenceProjectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B7A0422A465BAC83E5B4C4FFB64224 /* Pods-VideoConfrenceProjectTests-dummy.m */; };
+		2CE82A09D033E58A089AC7466266D99A /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1172B0E379C0B1A4166D7426220B569 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3430A89F9CD469A00226DB9F5610E01F /* Pods-VideoConfrenceProjectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46073E5E60104BD1B6EAFF6463D17DE5 /* Pods-VideoConfrenceProjectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DDD4DC9E2D9A99DEF7332DA257F7C14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		73ABC246C0C07452E3CB1B3E5769087C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		781C76FF6D1972FAF7A87EDA5EF1D70A /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29CF0B893A61DA7F049FC119F4052A68 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-dummy.m */; };
+		819FF2A6136ECD504627F30FD5A4D552 /* Pods-VideoConfrenceProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB7FB427187C3148FC842F0FBBC18CC /* Pods-VideoConfrenceProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD54BB774F40168FE99E95C635B0AA10 /* Pods-VideoConfrenceProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DECD6EA1C812D18F2FA21223F1F47D /* Pods-VideoConfrenceProject-dummy.m */; };
+		E49AD0FFA0B3822999357BAF59F7151F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		404F782DB8A709BB55E2B1EC98F2C62E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B40FBDAD0AB75D17C4760F4054BFF71;
+			remoteInfo = JitsiMeetSDK;
+		};
+		8209B329FBF21FC912CD4F15E27A253A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B40FBDAD0AB75D17C4760F4054BFF71;
+			remoteInfo = JitsiMeetSDK;
+		};
+		8FB5B8C8E5EA2DD87CE0FAEFD53B3230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DBA2EBF3E63FD005D9DDD25C049BB8C;
+			remoteInfo = "Pods-VideoConfrenceProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084DEE65FBE602E5D1F343999CDF04B7 /* Pods-VideoConfrenceProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConfrenceProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AB7FB427187C3148FC842F0FBBC18CC /* Pods-VideoConfrenceProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoConfrenceProject-umbrella.h"; sourceTree = "<group>"; };
+		11F22BE476863B7EFECE364A6FDA1B1B /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20B5B6DB4207D40283FA0AB0A5415F17 /* Pods_VideoConfrenceProject_VideoConfrenceProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoConfrenceProject_VideoConfrenceProjectUITests.framework; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DECD6EA1C812D18F2FA21223F1F47D /* Pods-VideoConfrenceProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoConfrenceProject-dummy.m"; sourceTree = "<group>"; };
+		29CF0B893A61DA7F049FC119F4052A68 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-dummy.m"; sourceTree = "<group>"; };
+		2D62DC14BDAD65F07433E467E6C278EC /* Pods-VideoConfrenceProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConfrenceProject-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46073E5E60104BD1B6EAFF6463D17DE5 /* Pods-VideoConfrenceProjectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoConfrenceProjectTests-umbrella.h"; sourceTree = "<group>"; };
+		4687FEE0CE8EFD214B871C46F9815F8D /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-Info.plist"; sourceTree = "<group>"; };
+		63B880EF292C2EEEB17FDF6958156EF6 /* JitsiMeet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JitsiMeet.framework; path = Frameworks/JitsiMeet.framework; sourceTree = "<group>"; };
+		64BEB9DC74E7B8C85AD7260CC901F53E /* Pods_VideoConfrenceProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoConfrenceProjectTests.framework; path = "Pods-VideoConfrenceProjectTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		693FF5787A34853B3DB39B3402C290EA /* Pods-VideoConfrenceProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoConfrenceProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72231DA21C4B0EB8E0132FA07B1A40C9 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7768B7114A4851E37A115F013690EF79 /* JitsiMeetSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JitsiMeetSDK.debug.xcconfig; sourceTree = "<group>"; };
+		854328C793570CC242ACEA63971826C0 /* Pods-VideoConfrenceProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConfrenceProject.release.xcconfig"; sourceTree = "<group>"; };
+		877E5C09E067557A5033AD70A4E22D10 /* Pods-VideoConfrenceProjectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoConfrenceProjectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8849B74515F552F956F949D9F0D3E65C /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		8AA6A4AD3E8C743820E968E4B4C47B4F /* JitsiMeetSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JitsiMeetSDK.release.xcconfig; sourceTree = "<group>"; };
+		8C60DDFD9B8A16AFE57FBBF5E8D55775 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90C94C0D7D9FF89341E33C2E7E1F1814 /* Pods-VideoConfrenceProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConfrenceProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		945A1BD2AB5682044411C99C00D98D7A /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A7B25E67107AE4B21E9435E9DB2E0B5 /* Pods-VideoConfrenceProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConfrenceProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1172B0E379C0B1A4166D7426220B569 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-umbrella.h"; sourceTree = "<group>"; };
+		A842A943B809796A6DA84FE3FD8C8AF7 /* Pods-VideoConfrenceProjectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConfrenceProjectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3B16D9E071A1942BAE2AAC426B4FE36 /* Pods-VideoConfrenceProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoConfrenceProject.modulemap"; sourceTree = "<group>"; };
+		C1ED9D24C18AFA82E839D9493700BBE2 /* Pods-VideoConfrenceProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoConfrenceProject-frameworks.sh"; sourceTree = "<group>"; };
+		CA4519F225EC607AACB238864335EE46 /* Pods-VideoConfrenceProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoConfrenceProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB694C18C1BCA4AA160F6A54F622349 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		D0B7A0422A465BAC83E5B4C4FFB64224 /* Pods-VideoConfrenceProjectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoConfrenceProjectTests-dummy.m"; sourceTree = "<group>"; };
+		E83B9277413EA9F8E7AF79AB70543DB4 /* Pods-VideoConfrenceProjectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoConfrenceProjectTests.modulemap"; sourceTree = "<group>"; };
+		F585FC0125FCD39FAC316CB8D0A4806B /* Pods-VideoConfrenceProjectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoConfrenceProjectTests-Info.plist"; sourceTree = "<group>"; };
+		F6C31447A51F213DD8E64BDC2AFA3344 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.modulemap"; sourceTree = "<group>"; };
+		FF8F880A46B3302C430807E8BD206AC8 /* Pods_VideoConfrenceProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoConfrenceProject.framework; path = "Pods-VideoConfrenceProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AEFCBF08A4B4FDB0B80B213979D373F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E49AD0FFA0B3822999357BAF59F7151F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED3CB2A6D1F5CBA40378C74121514C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73ABC246C0C07452E3CB1B3E5769087C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D339F2EF11DD3580FB9DDE99158004EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DDD4DC9E2D9A99DEF7332DA257F7C14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09032B781DE3A821E4F82E764624893E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B28F2EF680D83F8D35907C5B86741378 /* JitsiMeetSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C4E1EC3A8E84FE4D8F7A953C2727DFC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DDCAC90F0157ED9E7840BB0A538D636 /* Pods-VideoConfrenceProject */,
+				A88BA0FCDCD2466E378E21D41182B817 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests */,
+				C95F4384A0CB0BBE2381B98209C70D14 /* Pods-VideoConfrenceProjectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5DDCAC90F0157ED9E7840BB0A538D636 /* Pods-VideoConfrenceProject */ = {
+			isa = PBXGroup;
+			children = (
+				B3B16D9E071A1942BAE2AAC426B4FE36 /* Pods-VideoConfrenceProject.modulemap */,
+				693FF5787A34853B3DB39B3402C290EA /* Pods-VideoConfrenceProject-acknowledgements.markdown */,
+				084DEE65FBE602E5D1F343999CDF04B7 /* Pods-VideoConfrenceProject-acknowledgements.plist */,
+				25DECD6EA1C812D18F2FA21223F1F47D /* Pods-VideoConfrenceProject-dummy.m */,
+				C1ED9D24C18AFA82E839D9493700BBE2 /* Pods-VideoConfrenceProject-frameworks.sh */,
+				2D62DC14BDAD65F07433E467E6C278EC /* Pods-VideoConfrenceProject-Info.plist */,
+				0AB7FB427187C3148FC842F0FBBC18CC /* Pods-VideoConfrenceProject-umbrella.h */,
+				9A7B25E67107AE4B21E9435E9DB2E0B5 /* Pods-VideoConfrenceProject.debug.xcconfig */,
+				854328C793570CC242ACEA63971826C0 /* Pods-VideoConfrenceProject.release.xcconfig */,
+			);
+			name = "Pods-VideoConfrenceProject";
+			path = "Target Support Files/Pods-VideoConfrenceProject";
+			sourceTree = "<group>";
+		};
+		8D1DF8146241F279D4002AABBF5F60B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63B880EF292C2EEEB17FDF6958156EF6 /* JitsiMeet.framework */,
+				8849B74515F552F956F949D9F0D3E65C /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A88BA0FCDCD2466E378E21D41182B817 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6C31447A51F213DD8E64BDC2AFA3344 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.modulemap */,
+				72231DA21C4B0EB8E0132FA07B1A40C9 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-acknowledgements.markdown */,
+				945A1BD2AB5682044411C99C00D98D7A /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-acknowledgements.plist */,
+				29CF0B893A61DA7F049FC119F4052A68 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-dummy.m */,
+				CBB694C18C1BCA4AA160F6A54F622349 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-frameworks.sh */,
+				4687FEE0CE8EFD214B871C46F9815F8D /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-Info.plist */,
+				A1172B0E379C0B1A4166D7426220B569 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-umbrella.h */,
+				8C60DDFD9B8A16AFE57FBBF5E8D55775 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.debug.xcconfig */,
+				11F22BE476863B7EFECE364A6FDA1B1B /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.release.xcconfig */,
+			);
+			name = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests";
+			path = "Target Support Files/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests";
+			sourceTree = "<group>";
+		};
+		B28F2EF680D83F8D35907C5B86741378 /* JitsiMeetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8D1DF8146241F279D4002AABBF5F60B5 /* Frameworks */,
+				B5EE44106D564DAC384D270F1419EF1A /* Support Files */,
+			);
+			name = JitsiMeetSDK;
+			path = JitsiMeetSDK;
+			sourceTree = "<group>";
+		};
+		B5EE44106D564DAC384D270F1419EF1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7768B7114A4851E37A115F013690EF79 /* JitsiMeetSDK.debug.xcconfig */,
+				8AA6A4AD3E8C743820E968E4B4C47B4F /* JitsiMeetSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JitsiMeetSDK";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C95F4384A0CB0BBE2381B98209C70D14 /* Pods-VideoConfrenceProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				E83B9277413EA9F8E7AF79AB70543DB4 /* Pods-VideoConfrenceProjectTests.modulemap */,
+				877E5C09E067557A5033AD70A4E22D10 /* Pods-VideoConfrenceProjectTests-acknowledgements.markdown */,
+				A842A943B809796A6DA84FE3FD8C8AF7 /* Pods-VideoConfrenceProjectTests-acknowledgements.plist */,
+				D0B7A0422A465BAC83E5B4C4FFB64224 /* Pods-VideoConfrenceProjectTests-dummy.m */,
+				F585FC0125FCD39FAC316CB8D0A4806B /* Pods-VideoConfrenceProjectTests-Info.plist */,
+				46073E5E60104BD1B6EAFF6463D17DE5 /* Pods-VideoConfrenceProjectTests-umbrella.h */,
+				90C94C0D7D9FF89341E33C2E7E1F1814 /* Pods-VideoConfrenceProjectTests.debug.xcconfig */,
+				CA4519F225EC607AACB238864335EE46 /* Pods-VideoConfrenceProjectTests.release.xcconfig */,
+			);
+			name = "Pods-VideoConfrenceProjectTests";
+			path = "Target Support Files/Pods-VideoConfrenceProjectTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				09032B781DE3A821E4F82E764624893E /* Pods */,
+				E0F38077916FD730BAF2D09D7984FD71 /* Products */,
+				2C4E1EC3A8E84FE4D8F7A953C2727DFC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0F38077916FD730BAF2D09D7984FD71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8F880A46B3302C430807E8BD206AC8 /* Pods_VideoConfrenceProject.framework */,
+				20B5B6DB4207D40283FA0AB0A5415F17 /* Pods_VideoConfrenceProject_VideoConfrenceProjectUITests.framework */,
+				64BEB9DC74E7B8C85AD7260CC901F53E /* Pods_VideoConfrenceProjectTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A964023A34C8774FCEA0FA8DBA20F0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE82A09D033E58A089AC7466266D99A /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B72FC20E0500A591BC736B64EC7F6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819FF2A6136ECD504627F30FD5A4D552 /* Pods-VideoConfrenceProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A424D4260F2376F2892FD3B6B6D075D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3430A89F9CD469A00226DB9F5610E01F /* Pods-VideoConfrenceProjectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0950EFD14BD48F8567B946EDB64F0496 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 653D9CFEFCC690DAE2D7ED6AA14DE551 /* Build configuration list for PBXNativeTarget "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests" */;
+			buildPhases = (
+				3A964023A34C8774FCEA0FA8DBA20F0B /* Headers */,
+				B3F6C6E9E5021F569A576D8770570AB6 /* Sources */,
+				5ED3CB2A6D1F5CBA40378C74121514C9 /* Frameworks */,
+				943A9628A810B8A7C966980BC8137013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				204FDECE014E8D7A41AC7ADDCAFE2A91 /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests";
+			productName = "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests";
+			productReference = 20B5B6DB4207D40283FA0AB0A5415F17 /* Pods_VideoConfrenceProject_VideoConfrenceProjectUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DBA2EBF3E63FD005D9DDD25C049BB8C /* Pods-VideoConfrenceProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E29DF4FEC94A3697FF9653708C45CC /* Build configuration list for PBXNativeTarget "Pods-VideoConfrenceProject" */;
+			buildPhases = (
+				84B72FC20E0500A591BC736B64EC7F6E /* Headers */,
+				81FCE124EA96FD9DF313ECD5686A2C30 /* Sources */,
+				4AEFCBF08A4B4FDB0B80B213979D373F /* Frameworks */,
+				E96CEEA4031F2E6DAA8736960FE1E2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0BDD3DA88B7D867601AAD454A4F0850 /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoConfrenceProject";
+			productName = "Pods-VideoConfrenceProject";
+			productReference = FF8F880A46B3302C430807E8BD206AC8 /* Pods_VideoConfrenceProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91F6922DFC230B95222688B48166E15D /* Pods-VideoConfrenceProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23BA0007ED9050E8A8B9529A3B880A8D /* Build configuration list for PBXNativeTarget "Pods-VideoConfrenceProjectTests" */;
+			buildPhases = (
+				A424D4260F2376F2892FD3B6B6D075D1 /* Headers */,
+				24A8F9322FA681B6114ED5A1A76ED721 /* Sources */,
+				D339F2EF11DD3580FB9DDE99158004EB /* Frameworks */,
+				9AF84F6FC9710F5270713ABD414269C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C032CC1C8E1E1E8E3976FF3C1DDEE642 /* PBXTargetDependency */,
+			);
+			name = "Pods-VideoConfrenceProjectTests";
+			productName = "Pods-VideoConfrenceProjectTests";
+			productReference = 64BEB9DC74E7B8C85AD7260CC901F53E /* Pods_VideoConfrenceProjectTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E0F38077916FD730BAF2D09D7984FD71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B40FBDAD0AB75D17C4760F4054BFF71 /* JitsiMeetSDK */,
+				6DBA2EBF3E63FD005D9DDD25C049BB8C /* Pods-VideoConfrenceProject */,
+				0950EFD14BD48F8567B946EDB64F0496 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests */,
+				91F6922DFC230B95222688B48166E15D /* Pods-VideoConfrenceProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943A9628A810B8A7C966980BC8137013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF84F6FC9710F5270713ABD414269C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E96CEEA4031F2E6DAA8736960FE1E2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24A8F9322FA681B6114ED5A1A76ED721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E29726B74CCF60B98B3BEE05ABF159 /* Pods-VideoConfrenceProjectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FCE124EA96FD9DF313ECD5686A2C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD54BB774F40168FE99E95C635B0AA10 /* Pods-VideoConfrenceProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3F6C6E9E5021F569A576D8770570AB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				781C76FF6D1972FAF7A87EDA5EF1D70A /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		204FDECE014E8D7A41AC7ADDCAFE2A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JitsiMeetSDK;
+			target = 5B40FBDAD0AB75D17C4760F4054BFF71 /* JitsiMeetSDK */;
+			targetProxy = 404F782DB8A709BB55E2B1EC98F2C62E /* PBXContainerItemProxy */;
+		};
+		A0BDD3DA88B7D867601AAD454A4F0850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JitsiMeetSDK;
+			target = 5B40FBDAD0AB75D17C4760F4054BFF71 /* JitsiMeetSDK */;
+			targetProxy = 8209B329FBF21FC912CD4F15E27A253A /* PBXContainerItemProxy */;
+		};
+		C032CC1C8E1E1E8E3976FF3C1DDEE642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VideoConfrenceProject";
+			target = 6DBA2EBF3E63FD005D9DDD25C049BB8C /* Pods-VideoConfrenceProject */;
+			targetProxy = 8FB5B8C8E5EA2DD87CE0FAEFD53B3230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FA7154D3EAE0320F3677587AF949733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4519F225EC607AACB238864335EE46 /* Pods-VideoConfrenceProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConfrenceProjectTests/Pods-VideoConfrenceProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConfrenceProjectTests/Pods-VideoConfrenceProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5D150DD873FA3EC32EB69D6A0DD4ED52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F22BE476863B7EFECE364A6FDA1B1B /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64B4BD28D6A408B201C3FE0A07D9C9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AA6A4AD3E8C743820E968E4B4C47B4F /* JitsiMeetSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69A7D6F0D955ADC8BBF1126FEF837B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C94C0D7D9FF89341E33C2E7E1F1814 /* Pods-VideoConfrenceProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConfrenceProjectTests/Pods-VideoConfrenceProjectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConfrenceProjectTests/Pods-VideoConfrenceProjectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91A31CC92299D2849E5942F3A577E60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C60DDFD9B8A16AFE57FBBF5E8D55775 /* Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests/Pods-VideoConfrenceProject-VideoConfrenceProjectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7753487F36E9D80EF3BA5CA31A8E807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854328C793570CC242ACEA63971826C0 /* Pods-VideoConfrenceProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConfrenceProject/Pods-VideoConfrenceProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConfrenceProject/Pods-VideoConfrenceProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D89F8F8B75D64865CB996B74E3CBE63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7B25E67107AE4B21E9435E9DB2E0B5 /* Pods-VideoConfrenceProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoConfrenceProject/Pods-VideoConfrenceProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoConfrenceProject/Pods-VideoConfrenceProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4FE56E7D72BEEEB726A30105BB55E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7768B7114A4851E37A115F013690EF79 /* JitsiMeetSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23BA0007ED9050E8A8B9529A3B880A8D /* Build configuration list for PBXNativeTarget "Pods-VideoConfrenceProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A7D6F0D955ADC8BBF1126FEF837B9A /* Debug */,
+				1FA7154D3EAE0320F3677587AF949733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		653D9CFEFCC690DAE2D7ED6AA14DE551 /* Build configuration list for PBXNativeTarget "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91A31CC92299D2849E5942F3A577E60E /* Debug */,
+				5D150DD873FA3EC32EB69D6A0DD4ED52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E29DF4FEC94A3697FF9653708C45CC /* Build configuration list for PBXNativeTarget "Pods-VideoConfrenceProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89F8F8B75D64865CB996B74E3CBE63F /* Debug */,
+				A7753487F36E9D80EF3BA5CA31A8E807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F617CE4545CE4E4DED6DEC4F2D3F8F38 /* Build configuration list for PBXAggregateTarget "JitsiMeetSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4FE56E7D72BEEEB726A30105BB55E9F /* Debug */,
+				64B4BD28D6A408B201C3FE0A07D9C9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

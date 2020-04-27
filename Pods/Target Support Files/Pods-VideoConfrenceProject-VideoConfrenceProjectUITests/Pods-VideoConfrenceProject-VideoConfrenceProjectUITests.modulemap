@@ -1,0 +1,6 @@
+framework module Pods_VideoConfrenceProject_VideoConfrenceProjectUITests {
+  umbrella header "Pods-VideoConfrenceProject-VideoConfrenceProjectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
